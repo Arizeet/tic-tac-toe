@@ -15,18 +15,32 @@ code {
 .square{
   height: 60px;
   width: 60px;
+  font-size: large;
+  font-weight: bold;
 }
 .board-row{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: large;
+  font-weight: bold;
 }
 .box{
   margin: 50px;
   padding: 0;
+  font-size: large;
+  font-weight: bold;
 }
 .status{
   margin: 30px;
   display: flex;
   justify-content: center;
+}
+.game{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.game-info{
+  margin: 30px;
 }
